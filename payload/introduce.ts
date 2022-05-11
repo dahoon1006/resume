@@ -4,9 +4,7 @@ import { lastestUpdatedAt } from '../package.json';
 const introduce: IIntroduce.Payload = {
   disable: false,
 
-  contents: [
-    '안녕하세요'
-  ],
+  contents: ['안녕하세요'],
   sign: 'Love poem',
   // sign: packageJson.author.name,
   // latestUpdated: '2019-07-24',
